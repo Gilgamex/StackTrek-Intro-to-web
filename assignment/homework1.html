@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="name">
+        
+        <p>Danilo Bañadera Jr. <br>
+        Sample Position</p>
+        <button onclick="showFunction()" title="Click to show more info">Learn more</button>
+        <br>
+        <script>
+            function showFunction() { 
+                var x = document.getElementById("info");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+        <br>
+    </div>
+    <!-- -------------------------------------------------------- -->
+        <br>
+       
+        <div id="info" style="display: none;">
+            <p>Hobbies</p>
+            <ul>
+                <li>Watching Anime</li>
+                <li>Watching gadget reviews</li>
+                <li>Facebook surfing</li>
+            </ul>
+            <br>
+        
+            <p>Favorite foods</p>
+            <ul>
+                <li>Shawarma</li>
+                <li>Burger & Fries</li>
+                <li>Samgyeopsal</li>
+                <li>Lumpia</li>
+                <li>Vegetable Salad</li>
+            </ul>
+            <br>
+            <p>Favorite series</p>
+            <ul>
+                <li>Game of Thrones</li>
+                <li>Mr. Robot</li>
+                <li>Kingdom</li>
+                <li>Young Sheldon</li>
+                <li>Narcos</li>
+            </ul>
+            <br>
+            <p>Favorite movies</p>
+            <ul>
+                <li>Avengers</li>
+                <li>Insidious</li>
+                <li>3 Idiots</li>
+            </ul>
+            <br>
+        </div>
+</body>
+</html>
